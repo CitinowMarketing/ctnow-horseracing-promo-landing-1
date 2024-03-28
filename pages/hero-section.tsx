@@ -1,6 +1,6 @@
 import { builder, BuilderComponent } from '@builder.io/react'
 
-builder.init('8f5e717bf91b49e4b45ff9c72a191b1b')
+builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!)
 
 export const getStaticProps = async (context) => {
   // Dynamically fetch latest content from Builder.io API
